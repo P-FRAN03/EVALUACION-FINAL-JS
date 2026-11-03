@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .pantalla1 {
+    display: none;
+} */
+
+.pantallaPrincipal {
+    position: relative;
+    max-width:700px;
+    max-height: 400px;
+    margin: 100px auto;
+}
+
+
+.pantallaPrincipal img{
+    width: 100%;
+    display: block;
+}
+
+.contenedorCentral{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    color: white;
+
+}
+.contenedorCentral input {
+    width: 220px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.contenedorCentral button {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logoDeManoBcp img {
+    max-width: 330px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bandaInferiorPrincipal {
+    display: flex;
+    padding: 10px 50px;
+    gap: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    /* background-color: darkblue; */
+}
+
+.contenedorDeFecha {
+    font-size: 11px;
+}
+
+.fondoDeDatos img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.billetesDisponibles {
+    display: flex;
+    gap: 18px;
+}
+
+/*------------pantalla 2---------------*/
+
+.contenedorSuperior{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+}
+
+.retirarEfectivo {
+    background-color: white;
+    color: rgb(3, 0, 151);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 140px;
+    height: 180px;
+}
+
+.ingresarMonto {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    width: 140px;
+    height: 80px;
+}
+
+.verSaldoActual {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    width: 140px;
+    height: 80px;
+}
+
+.actualizarNumero {
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    top: 170px;
+    left: 370px;
+    width: 140px;
+    height: 80px;
+}
+
+.cambiarClave {
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    top: 170px;
+    left: 520px;
+    width: 140px;
+    height: 80px;
+}
+
+.salida {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    width: 100px;
+    height: 40px;
+}
+
+.pantalla2 i {
+    font-size: 20px;
+}
+
+/*-------pantalla3------*/
+
+
+
+
+.retiroDeDinero{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    color: white;
+
+}
+.retiroDeDinero input {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.retiroDeDinero button {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.retirar20Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    right: 230px;
+    width: 140px;
+    height: 80px;
+}
+
+.retirar50Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    right: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+.retirar100Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    right: 230px;
+    width: 140px;
+    height: 80px;
+}
+
+.retirar200Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+
+/*-------pantalla4------*/
+
+
+.ingresoDeDinero{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    color: white;
+
+}
+.ingresoDeDinero input {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.ingresoDeDinero button {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.ingresar20Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    right: 230px;
+    width: 140px;
+    height: 80px;
+}
+
+.ingresar50Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    right: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+.ingresar100Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    right: 230px;
+    width: 140px;
+    height: 80px;
+}
+
+.ingresar200Soles{
+    background-color: rgb(3, 0, 151);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+/*---------pantalla5------*/
+
+.contenedorDeClavecita{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+
+.logoDeOcultarContraseña img {
+    max-width: 330px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+.contenedorDeClavecita input {
+    width: 220px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.contenedorDeClavecita button {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+}
+
